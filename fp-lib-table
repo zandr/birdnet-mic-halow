@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ADC5140_FP")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_XLV320ADC5140IRTWR/KiCADv6/footprints.pretty")(options "")(descr "TI TLV320ADC5140 RTW24 footprints"))
+
+  (lib (name "BirdNetMicHat") (type "KiCad") (uri "${KIPRJMOD}/lib/birdnet_mic_hat.pretty") (options "") (descr "")))

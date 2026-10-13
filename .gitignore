@@ -1,0 +1,17 @@
+# Local editor state and locks
+*.kicad_prl
+*.lck
+.DS_Store
+
+# Automatic backups and history
+*-backups/
+.history/
+*.bak
+*.bck
+*.kicad_sch-bak
+*.kicad_pcb-bak
+_autosave-*
+
+# Generated review output
+/birdnet-mic-hat.png
+/erc-konnect.json
