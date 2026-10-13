@@ -4,15 +4,15 @@ The comparator has been replaced by Q1, a JSCJ MMBT3904 NPN transistor (LCSC C20
 
 ## Circuit and removal
 
-J1 contact SW4 (the inherited footprint's pin 4) connects through **R10, 0 ohm, 0603**, to JACK_BIAS_SENSE. R6 (47 kohm) connects that signal to Q1's base; R8 (1 Mohm) connects base to ground. Q1's emitter is grounded. Its collector connects to MIC_PRESENT, with R7 (100 kohm) pulling it to VCC_3V3. MIC_PRESENT reaches J3 pin 20 / XIAO GPIO48.
+J1 contact SW4 (the inherited footprint's pin 4) connects directly to JACK_BIAS_SENSE. R6 (47 kohm, 0402) connects that signal to Q1's base; R8 (1 Mohm) connects base to ground. Q1's emitter is grounded. Its collector connects to MIC_PRESENT, with R7 (100 kohm) pulling it to VCC_3V3. MIC_PRESENT reaches J3 pin 20 / XIAO GPIO48.
 
-**Remove or omit R10 to disconnect the complete detector from the jack.** R10 is the vertical 0603 resistor at board coordinates X=117.0 mm, Y=122.0 mm, on the right edge above the analog regulator. Removing it leaves MIC_PRESENT HIGH; firmware must then ignore plug detection.
+**Remove or omit R6 to disconnect the complete detector from the jack.** R6 remains 0402 at board coordinates X=101.3 mm, Y=122.0 mm, on the left side beside the ADC. Removing it leaves MIC_PRESENT HIGH; firmware must then ignore plug detection. The redundant R10 link has been removed.
 
 SW6 is unused. The existing ring-loading resistor R9 and comparator U3, reference divider, and C13 have been removed.
 
 ## Contact assumption
 
-This implementation follows the user's reference: contact 4 is normally closed to the tip and opens on insertion. It uses the footprint contact named SW4; this name comes from the inherited LongWave footprint. It is **not** an assertion that the manufacturer's differently numbered family drawing and the inherited pad names match. Actual continuity has not been measured. Confirm that SW4 connects to the biased tip with no plug and opens with a plug. If this assumption is wrong, remove R10 and leave the audio circuit in use.
+This implementation follows the user's reference: contact 4 is normally closed to the tip and opens on insertion. It uses the footprint contact named SW4; this name comes from the inherited LongWave footprint. It is **not** an assertion that the manufacturer's differently numbered family drawing and the inherited pad names match. Actual continuity has not been measured. Confirm that SW4 connects to the biased tip with no plug and opens with a plug. If this assumption is wrong, remove R6 and leave the audio circuit in use.
 
 ## Firmware
 

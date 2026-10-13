@@ -3567,6 +3567,256 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_BJT:MMBT3904"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MMBT3904"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=B 2=E 3=C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MMBT3904_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0)
+						(xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905)
+						(xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MMBT3904_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635)
+						(xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635)
+						(xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778)
+						(xy 1.778 -1.27)
+						(xy 2.286 -2.286)
+						(xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -3949,256 +4199,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:MMBT3904"
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MMBT3904"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "NPN Transistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(embedded_fonts no)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Sim.Device" "NPN"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=B 2=E 3=C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MMBT3904_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0)
-						(xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905)
-						(xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MMBT3904_1_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635)
-						(xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635)
-						(xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778)
-						(xy 1.778 -1.27)
-						(xy 2.286 -2.286)
-						(xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 101.6 106.68)
@@ -4227,6 +4227,7 @@
 	(junction
 		(at 63.5 210.82)
 		(diameter 0)
+		(color 0 0 0 0)
 		(uuid "ca7e5c49-8f47-4783-8f06-c716bf6a6eb0")
 	)
 	(no_connect
@@ -4282,6 +4283,10 @@
 		(uuid "79cf5445-8b04-4c69-af80-046c48d02807")
 	)
 	(no_connect
+		(at 41.91 109.22)
+		(uuid "8b4eea87-51fb-49c6-8efb-709e6ba780cb")
+	)
+	(no_connect
 		(at 256.54 119.38)
 		(uuid "9b6b9f57-54ec-4f98-a375-13ae2d31da4a")
 	)
@@ -4308,10 +4313,6 @@
 	(no_connect
 		(at 358.14 93.98)
 		(uuid "fe26f84d-5045-4637-bc0d-16085184733e")
-	)
-	(no_connect
-		(at 41.91 109.22)
-		(uuid "8b4eea87-51fb-49c6-8efb-709e6ba780cb")
 	)
 	(wire
 		(pts
@@ -4356,6 +4357,17 @@
 			(type default)
 		)
 		(uuid "0e54823e-e59b-4a33-8b59-c62c472e20f0")
+	)
+	(wire
+		(pts
+			(xy 78.74 205.74)
+			(xy 115.57 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10410e39-d866-4804-a69a-d53b78356213")
 	)
 	(wire
 		(pts
@@ -4414,6 +4426,17 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 111.76)
+			(xy 48.26 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1899a24d-c4db-44b6-afb5-9c5fd28ee7fd")
+	)
+	(wire
+		(pts
 			(xy 256.54 109.22)
 			(xy 280.67 109.22)
 		)
@@ -4444,6 +4467,17 @@
 			(type default)
 		)
 		(uuid "27a91292-6391-4625-82d5-2691efbc4f9a")
+	)
+	(wire
+		(pts
+			(xy 63.5 210.82)
+			(xy 63.5 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29aaaab7-2d42-4980-965b-aa508776f78d")
 	)
 	(wire
 		(pts
@@ -4488,6 +4522,17 @@
 			(type default)
 		)
 		(uuid "31e81127-f747-4f50-89de-89d251ae27a0")
+	)
+	(wire
+		(pts
+			(xy 78.74 189.23)
+			(xy 78.74 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b821c2-4eb5-4032-ac7a-441e6ea93d6b")
 	)
 	(wire
 		(pts
@@ -4590,6 +4635,17 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 111.76)
+			(xy 48.26 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d557a6e-f413-48b1-a957-a0c8e7265faa")
+	)
+	(wire
+		(pts
 			(xy 163.83 120.65)
 			(xy 163.83 125.73)
 		)
@@ -4653,6 +4709,17 @@
 			(type default)
 		)
 		(uuid "5c7ff613-38f2-4e09-a720-0071c33d4866")
+	)
+	(wire
+		(pts
+			(xy 48.26 116.84)
+			(xy 52.07 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dc83df4-f6ef-44d4-a344-e78aed7b7b35")
 	)
 	(wire
 		(pts
@@ -4744,6 +4811,17 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 215.9)
+			(xy 78.74 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7016f32e-60e1-4e99-ba9c-2447bc0be99f")
+	)
+	(wire
+		(pts
 			(xy 182.88 165.1)
 			(xy 182.88 114.3)
 		)
@@ -4832,6 +4910,17 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 116.84)
+			(xy 85.09 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80aeb2f1-cd6b-46e3-aa77-834d1e705d59")
+	)
+	(wire
+		(pts
 			(xy 160.02 73.66)
 			(xy 160.02 78.74)
 		)
@@ -4884,6 +4973,17 @@
 			(type default)
 		)
 		(uuid "8c0a0f6e-aadd-4381-b982-244f7e153ccc")
+	)
+	(wire
+		(pts
+			(xy 27.94 210.82)
+			(xy 46.99 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c36f804-c684-4706-8b84-61a9c4342531")
 	)
 	(wire
 		(pts
@@ -4983,6 +5083,17 @@
 			(type default)
 		)
 		(uuid "9a6f92b1-8647-4853-9823-07605125343b")
+	)
+	(wire
+		(pts
+			(xy 78.74 201.93)
+			(xy 78.74 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b475e07-597b-4d90-8fad-11abc31cd69e")
 	)
 	(wire
 		(pts
@@ -5217,6 +5328,17 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 227.33)
+			(xy 63.5 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8f23b30-8502-48f1-9273-08df639c6445")
+	)
+	(wire
+		(pts
 			(xy 180.34 91.44)
 			(xy 180.34 66.04)
 		)
@@ -5236,6 +5358,17 @@
 			(type default)
 		)
 		(uuid "dd4db281-7c69-4fbd-9ebd-6d68c536530b")
+	)
+	(wire
+		(pts
+			(xy 54.61 210.82)
+			(xy 71.12 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de521c2e-4f34-4a82-b6fc-573fc5f14268")
 	)
 	(wire
 		(pts
@@ -5415,87 +5548,10 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 111.76)
-			(xy 48.26 111.76)
-		)
-		(uuid "1899a24d-c4db-44b6-afb5-9c5fd28ee7fd")
-	)
-	(wire
-		(pts
-			(xy 48.26 111.76)
-			(xy 48.26 116.84)
-		)
-		(uuid "4d557a6e-f413-48b1-a957-a0c8e7265faa")
-	)
-	(wire
-		(pts
-			(xy 48.26 116.84)
 			(xy 52.07 116.84)
-		)
-		(uuid "5dc83df4-f6ef-44d4-a344-e78aed7b7b35")
-	)
-	(wire
-		(pts
 			(xy 59.69 116.84)
-			(xy 85.09 116.84)
 		)
-		(uuid "80aeb2f1-cd6b-46e3-aa77-834d1e705d59")
-	)
-	(wire
-		(pts
-			(xy 27.94 210.82)
-			(xy 46.99 210.82)
-		)
-		(uuid "8c36f804-c684-4706-8b84-61a9c4342531")
-	)
-	(wire
-		(pts
-			(xy 54.61 210.82)
-			(xy 71.12 210.82)
-		)
-		(uuid "de521c2e-4f34-4a82-b6fc-573fc5f14268")
-	)
-	(wire
-		(pts
-			(xy 63.5 210.82)
-			(xy 63.5 219.71)
-		)
-		(uuid "29aaaab7-2d42-4980-965b-aa508776f78d")
-	)
-	(wire
-		(pts
-			(xy 63.5 227.33)
-			(xy 63.5 234.95)
-		)
-		(uuid "d8f23b30-8502-48f1-9273-08df639c6445")
-	)
-	(wire
-		(pts
-			(xy 78.74 215.9)
-			(xy 78.74 231.14)
-		)
-		(uuid "7016f32e-60e1-4e99-ba9c-2447bc0be99f")
-	)
-	(wire
-		(pts
-			(xy 78.74 189.23)
-			(xy 78.74 194.31)
-		)
-		(uuid "38b821c2-4eb5-4032-ac7a-441e6ea93d6b")
-	)
-	(wire
-		(pts
-			(xy 78.74 201.93)
-			(xy 78.74 205.74)
-		)
-		(uuid "9b475e07-597b-4d90-8fad-11abc31cd69e")
-	)
-	(wire
-		(pts
-			(xy 78.74 205.74)
-			(xy 115.57 205.74)
-		)
-		(uuid "10410e39-d866-4804-a69a-d53b78356213")
+		(uuid "9e4771e6-98ff-42ad-a543-70cde6e312bf")
 	)
 	(text "R4/R5 hold the address straps low.\nR3 pulls SHDNZ high; GPIO40 controls reset."
 		(at 252.73 177.8 0)
@@ -5609,6 +5665,16 @@
 			(justify left bottom)
 		)
 		(uuid "6f1a9f47-273a-464c-9e3b-58ccc013b645")
+	)
+	(text "MICBIAS enabled: no plug = Q1 on / MIC_PRESENT LOW.\nPlug inserted: tip switch opens / MIC_PRESENT HIGH.\nGPIO48: input, internal pulls disabled; debounce in firmware."
+		(at 27.94 255.27 0)
+		(effects
+			(font
+				(size 1.4 1.4)
+			)
+			(justify left bottom)
+		)
+		(uuid "7af11a18-52b5-44c9-9840-ba3568db8b33")
 	)
 	(text "20 PRESENT / GPIO48"
 		(at 363.22 99.56 0)
@@ -5765,6 +5831,16 @@
 		)
 		(uuid "2929bd85-1364-4847-973d-b39759e8f63d")
 	)
+	(label "MIC_PRESENT"
+		(at 115.57 205.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "36d91040-f5cc-4577-851c-0414108e4ecd")
+	)
 	(label "MIC_RING"
 		(at 121.92 106.68 0)
 		(effects
@@ -5774,6 +5850,16 @@
 			(justify left bottom)
 		)
 		(uuid "3c3d875d-6cad-43ef-aa9b-78edacce4db0")
+	)
+	(label "JACK_BIAS_SENSE"
+		(at 27.94 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fd110ab-e3f0-4fff-a183-3b1b5a97793c")
 	)
 	(label "MIC_TIP"
 		(at 138.43 101.6 0)
@@ -5794,6 +5880,16 @@
 			(justify left bottom)
 		)
 		(uuid "714bba7d-3e74-43a8-ba81-aad0df2fc30c")
+	)
+	(label "JACK_BIAS_SENSE"
+		(at 85.09 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "723cfee3-73b6-4c42-aea6-07cda30f88e8")
 	)
 	(label "PDM_CLK"
 		(at 144.78 165.1 0)
@@ -5975,50 +6071,15 @@
 		)
 		(uuid "f5824223-be94-457c-8069-04245059aee4")
 	)
-	(label "JACK_BIAS_SENSE"
-		(at 85.09 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "723cfee3-73b6-4c42-aea6-07cda30f88e8")
-	)
-	(label "JACK_BIAS_SENSE"
-		(at 27.94 210.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3fd110ab-e3f0-4fff-a183-3b1b5a97793c")
-	)
-	(label "MIC_PRESENT"
-		(at 115.57 205.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "36d91040-f5cc-4577-851c-0414108e4ecd")
-	)
-  (text "R10: removable 0 ohm link from J1 pin 4 (SW4).\nAssumed NC to biased TIP; verify with the actual jack."
+  (text "J1 pin 4 (SW4): assumed NC to biased TIP.\nVerify with the actual jack; remove R6 to disable detection."
     (at 25.4 149.86 0)
     (effects (font (size 1.4 1.4)) (justify left bottom))
-    (uuid "fc984b88-5a54-4eca-a5e1-d6cb2aa149eb")
+    (uuid "84daab47-b3fb-4f85-b516-b3d5aa707db8")
   )
-  (text "MICBIAS enabled: no plug = Q1 on / MIC_PRESENT LOW.\nPlug inserted: tip switch opens / MIC_PRESENT HIGH.\nGPIO48: input, internal pulls disabled; debounce in firmware."
-    (at 27.94 255.27 0)
-    (effects (font (size 1.4 1.4)) (justify left bottom))
-    (uuid "7af11a18-52b5-44c9-9840-ba3568db8b33")
-  )
-  (text "Enable MICBIAS and wait for settling before reading detection.\nRemove R10 to isolate detection if contact mapping is wrong;\nthen ignore MIC_PRESENT in firmware (it remains HIGH)."
+  (text "Enable MICBIAS and wait for settling before reading detection.\nRemove R6 to isolate detection if contact mapping is wrong;\nthen ignore MIC_PRESENT in firmware (it remains HIGH)."
     (at 27.94 269.24 0)
     (effects (font (size 1.4 1.4)) (justify left bottom))
-    (uuid "dae18291-7540-4e54-be90-f333621810c9")
+    (uuid "e289e786-38ec-44b1-95f4-18d0d994ac80")
   )
 	(symbol
 		(lib_id "power:GND")
@@ -7281,6 +7342,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 78.74 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "425fa76b-4872-468b-8bc2-2823ebbb3d8d")
+		(property "Reference" "#PWR023"
+			(at 78.74 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 234.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(body_style 1)
+		(in_pos_files yes)
+		(pin "1"
+			(uuid "cc0eebc9-50b0-4d93-9e04-b70ff6de82da")
+		)
+		(instances
+			(project "birdnet-mic-hat"
+				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 160.02 59.69 0)
 		(unit 1)
@@ -7511,6 +7649,85 @@
 			(project "birdnet-mic-hat"
 				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 63.5 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45a96d32-dcf1-47b3-ac46-e570aca960af")
+		(property "Reference" "R8"
+			(at 65.532 223.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1M"
+			(at 63.5 223.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 63.5 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 63.5 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(body_style 1)
+		(in_pos_files yes)
+		(pin "1"
+			(uuid "c94d558c-786b-4f0c-bb05-f6ee956dc54c")
+		)
+		(pin "2"
+			(uuid "d33423b4-f9ae-4005-9118-ad8866f71c62")
+		)
+		(instances
+			(project "birdnet-mic-hat"
+				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -7821,6 +8038,85 @@
 			(project "birdnet-mic-hat"
 				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 78.74 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c53255a-7863-4313-afac-097b20abbe15")
+		(property "Reference" "R7"
+			(at 80.772 198.12 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 78.74 198.12 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 78.74 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 78.74 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(body_style 1)
+		(in_pos_files yes)
+		(pin "1"
+			(uuid "f4261d9b-44d5-4ebf-8c22-0a48aa19e82c")
+		)
+		(pin "2"
+			(uuid "7cbf6fb2-cf68-463b-842c-066bb78304dd")
+		)
+		(instances
+			(project "birdnet-mic-hat"
+				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8336,6 +8632,123 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBT3904")
+		(at 76.2 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d15063e-bc32-4eeb-9238-c46829f552f4")
+		(property "Reference" "Q1"
+			(at 81.28 208.915 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3904"
+			(at 81.28 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 76.2 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/9335632bcfa83df8351353eab379720e.pdf?productCode=C20526"
+			(at 76.2 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 76.2 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20526"
+			(at 76.2 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MMBT3904"
+			(at 76.2 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JSCJ"
+			(at 76.2 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(body_style 1)
+		(in_pos_files yes)
+		(pin "3"
+			(uuid "675c9343-26ab-4430-ac03-548335d97e01")
+		)
+		(pin "2"
+			(uuid "5dd0f9c7-0318-43c2-9522-98afda3566bb")
+		)
+		(pin "1"
+			(uuid "10ce9ebf-81c3-4d42-a8c4-145068c82c8f")
+		)
+		(instances
+			(project "birdnet-mic-hat"
+				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 104.14 163.83 0)
 		(unit 1)
@@ -8638,6 +9051,85 @@
 			(project "birdnet-mic-hat"
 				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 50.8 210.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9acc4bda-d2b5-45fb-a4cd-ab6b6552be2e")
+		(property "Reference" "R6"
+			(at 50.8 208.788 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 50.8 210.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 50.8 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 50.8 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(body_style 1)
+		(in_pos_files yes)
+		(pin "2"
+			(uuid "9347c97d-dcc8-4a29-a2f6-e793757854e7")
+		)
+		(pin "1"
+			(uuid "928964a9-b14b-4deb-8fcf-a19c54b7bc73")
+		)
+		(instances
+			(project "birdnet-mic-hat"
+				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -10734,6 +11226,160 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 63.5 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f028bb8f-b9d0-4510-a700-a3ffdaa8815c")
+		(property "Reference" "#PWR024"
+			(at 63.5 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(body_style 1)
+		(in_pos_files yes)
+		(pin "1"
+			(uuid "34c35f08-1390-46d5-b03d-5e3a1dc1e74c")
+		)
+		(instances
+			(project "birdnet-mic-hat"
+				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 78.74 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f041e1ae-c968-462d-9038-4d847611661b")
+		(property "Reference" "#PWR115"
+			(at 78.74 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC_3V3"
+			(at 78.74 185.674 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 78.74 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(body_style 1)
+		(in_pos_files yes)
+		(pin "1"
+			(uuid "f8ccff08-e7a7-4514-b737-61f2b959e1b2")
+		)
+		(instances
+			(project "birdnet-mic-hat"
+				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
+					(reference "#PWR115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 289.56 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11028,518 +11674,6 @@
 			(project "birdnet-mic-hat"
 				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 76.2 210.82 0)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7d15063e-bc32-4eeb-9238-c46829f552f4")
-		(property "Reference" "Q1"
-			(at 81.28 208.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT3904"
-			(at 81.28 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 76.2 210.82 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/9335632bcfa83df8351353eab379720e.pdf?productCode=C20526"
-			(at 76.2 210.82 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 76.2 210.82 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C20526"
-			(at 76.2 210.82 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "MMBT3904"
-			(at 76.2 210.82 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "JSCJ"
-			(at 76.2 210.82 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "birdnet-mic-hat"
-				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 50.8 210.82 90)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9acc4bda-d2b5-45fb-a4cd-ab6b6552be2e")
-		(property "Reference" "R6"
-			(at 50.8 208.788 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47k"
-			(at 50.8 210.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 50.8 210.82 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 210.82 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 50.8 210.82 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "birdnet-mic-hat"
-				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 78.74 198.12 0)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c53255a-7863-4313-afac-097b20abbe15")
-		(property "Reference" "R7"
-			(at 80.772 198.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 78.74 198.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 78.74 198.12 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 198.12 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 78.74 198.12 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "birdnet-mic-hat"
-				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 63.5 223.52 0)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "45a96d32-dcf1-47b3-ac46-e570aca960af")
-		(property "Reference" "R8"
-			(at 65.532 223.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1M"
-			(at 63.5 223.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 63.5 223.52 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 223.52 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 63.5 223.52 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "birdnet-mic-hat"
-				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 55.88 116.84 90)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5c49ae3f-fff1-4264-9aa2-bf497d4e7faf")
-		(property "Reference" "R10"
-			(at 55.88 114.808 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 55.88 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 55.88 116.84 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 116.84 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Remove to disable jack detection"
-			(at 55.88 116.84 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "birdnet-mic-hat"
-				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 78.74 189.23 0)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f041e1ae-c968-462d-9038-4d847611661b")
-		(property "Reference" "#PWR115"
-			(at 78.74 193.04 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_3V3"
-			(at 78.74 185.674 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 189.23 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 189.23 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 78.74 189.23 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "birdnet-mic-hat"
-				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "#PWR115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 78.74 231.14 0)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "425fa76b-4872-468b-8bc2-2823ebbb3d8d")
-		(property "Reference" "#PWR023"
-			(at 78.74 237.49 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 78.74 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 231.14 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 231.14 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 231.14 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "birdnet-mic-hat"
-				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 63.5 234.95 0)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f028bb8f-b9d0-4510-a700-a3ffdaa8815c")
-		(property "Reference" "#PWR024"
-			(at 63.5 241.3 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 63.5 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 234.95 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 234.95 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 234.95 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "birdnet-mic-hat"
-				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
