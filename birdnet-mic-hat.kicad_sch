@@ -3949,6 +3949,256 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_BJT:MMBT3904"
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MMBT3904"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(embedded_fonts no)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=B 2=E 3=C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MMBT3904_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0)
+						(xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905)
+						(xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MMBT3904_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635)
+						(xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635)
+						(xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778)
+						(xy 1.778 -1.27)
+						(xy 2.286 -2.286)
+						(xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 101.6 106.68)
@@ -3975,19 +4225,9 @@
 		(uuid "53feafb9-a1e8-4055-b8a6-7b85e169421e")
 	)
 	(junction
-		(at 88.9 210.82)
+		(at 63.5 210.82)
 		(diameter 0)
-		(uuid "578042de-88ab-4662-bb2d-b4b1538b4ebe")
-	)
-	(junction
-		(at 57.15 215.9)
-		(diameter 0)
-		(uuid "c05145eb-bb95-41bb-b0f5-d7f713094f8a")
-	)
-	(junction
-		(at 87.63 106.68)
-		(diameter 0)
-		(uuid "36633343-e74a-4a31-8afc-902ffb94fcdb")
+		(uuid "ca7e5c49-8f47-4783-8f06-c716bf6a6eb0")
 	)
 	(no_connect
 		(at 358.14 121.92)
@@ -4054,10 +4294,6 @@
 		(uuid "aa302a96-76ac-46d5-9030-6d3ece0a814c")
 	)
 	(no_connect
-		(at 41.91 111.76)
-		(uuid "aae9ea8e-2377-4251-a6d5-260c691cfecc")
-	)
-	(no_connect
 		(at 345.44 96.52)
 		(uuid "c9f2f425-7480-4a3f-9490-397c23087437")
 	)
@@ -4073,6 +4309,10 @@
 		(at 358.14 93.98)
 		(uuid "fe26f84d-5045-4637-bc0d-16085184733e")
 	)
+	(no_connect
+		(at 41.91 109.22)
+		(uuid "8b4eea87-51fb-49c6-8efb-709e6ba780cb")
+	)
 	(wire
 		(pts
 			(xy 182.88 114.3)
@@ -4083,6 +4323,17 @@
 			(type default)
 		)
 		(uuid "01d87f76-3997-4419-8266-6eeec1dfc1c7")
+	)
+	(wire
+		(pts
+			(xy 318.77 114.3)
+			(xy 345.44 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03a2ee32-db0b-484d-9de9-c6cadc67fc18")
 	)
 	(wire
 		(pts
@@ -4163,14 +4414,14 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 203.2)
-			(xy 119.38 208.28)
+			(xy 256.54 109.22)
+			(xy 280.67 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1ac78412-98ad-464f-add4-1ea37fd2a47c")
+		(uuid "21e609e7-2993-41fb-805d-88b2867e58cc")
 	)
 	(wire
 		(pts
@@ -4196,17 +4447,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 109.22)
-			(xy 48.26 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29ea2bc4-51bf-44fd-81cd-f2a659e17dee")
-	)
-	(wire
-		(pts
 			(xy 345.44 91.44)
 			(xy 330.2 91.44)
 		)
@@ -4215,17 +4455,6 @@
 			(type default)
 		)
 		(uuid "2c6a1ade-d5a1-4d6a-bb06-8f625aa5379a")
-	)
-	(wire
-		(pts
-			(xy 48.26 109.22)
-			(xy 48.26 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d7af485-da07-4d11-a9e1-4982fafb93f6")
 	)
 	(wire
 		(pts
@@ -4262,14 +4491,14 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 213.36)
-			(xy 128.27 213.36)
+			(xy 318.77 121.92)
+			(xy 345.44 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36d8af50-a48a-40d7-9967-e6fbacd0f04e")
+		(uuid "38cc5e12-8c72-4ca5-a07a-9b86275760c2")
 	)
 	(wire
 		(pts
@@ -4405,6 +4634,17 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 80.01)
+			(xy 330.2 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b9d9976-77be-459e-906f-ac778b9895c7")
+	)
+	(wire
+		(pts
 			(xy 345.44 119.38)
 			(xy 332.74 119.38)
 		)
@@ -4460,6 +4700,17 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 143.51)
+			(xy 320.04 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "671dcb89-d7a8-4f3e-a65c-7b6f470692ce")
+	)
+	(wire
+		(pts
 			(xy 256.54 91.44)
 			(xy 266.7 91.44)
 		)
@@ -4479,17 +4730,6 @@
 			(type default)
 		)
 		(uuid "6ca0b6be-11cf-4048-9822-f9b93a36df8b")
-	)
-	(wire
-		(pts
-			(xy 345.44 99.06)
-			(xy 325.12 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d56d865-9e9a-44e5-bae8-50dbb5246bd0")
 	)
 	(wire
 		(pts
@@ -4545,6 +4785,17 @@
 			(type default)
 		)
 		(uuid "7806835e-0bc2-4674-857f-8b836b50b90f")
+	)
+	(wire
+		(pts
+			(xy 256.54 96.52)
+			(xy 280.67 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "786fa2c3-6ffc-4e0f-b5ce-624fa203cfdc")
 	)
 	(wire
 		(pts
@@ -4604,13 +4855,24 @@
 	(wire
 		(pts
 			(xy 256.54 111.76)
-			(xy 271.78 111.76)
+			(xy 280.67 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "83d4cbaf-be38-4961-b259-1d20b45e1ec4")
+	)
+	(wire
+		(pts
+			(xy 318.77 106.68)
+			(xy 345.44 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b8ff337-5f0f-4d58-90c0-b7242e527304")
 	)
 	(wire
 		(pts
@@ -4622,17 +4884,6 @@
 			(type default)
 		)
 		(uuid "8c0a0f6e-aadd-4381-b982-244f7e153ccc")
-	)
-	(wire
-		(pts
-			(xy 48.26 116.84)
-			(xy 63.5 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c64bc21-dc9b-45d7-9342-547fddf1e735")
 	)
 	(wire
 		(pts
@@ -4666,17 +4917,6 @@
 			(type default)
 		)
 		(uuid "914f2196-77d8-4ae6-a4f9-0b71615bfb0c")
-	)
-	(wire
-		(pts
-			(xy 100.33 222.25)
-			(xy 100.33 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92a0f968-13a3-4faa-b207-0c4461d89c99")
 	)
 	(wire
 		(pts
@@ -4746,6 +4986,17 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 93.98)
+			(xy 280.67 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f54ffe1-6f1c-4511-8ca9-a49eb70159ad")
+	)
+	(wire
+		(pts
 			(xy 332.74 119.38)
 			(xy 332.74 128.27)
 		)
@@ -4768,6 +5019,39 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 104.14)
+			(xy 345.44 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a837f94d-1f3f-480d-bd3e-18936a4cba5a")
+	)
+	(wire
+		(pts
+			(xy 256.54 116.84)
+			(xy 280.67 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8769566-fe59-4557-b03b-f0f90220c65b")
+	)
+	(wire
+		(pts
+			(xy 256.54 114.3)
+			(xy 280.67 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aec3cd58-cc55-4986-9b1b-b701134a96f7")
+	)
+	(wire
+		(pts
 			(xy 138.43 162.56)
 			(xy 138.43 180.34)
 		)
@@ -4787,6 +5071,28 @@
 			(type default)
 		)
 		(uuid "aff08a4e-f71a-492a-98c3-295b5f545ea9")
+	)
+	(wire
+		(pts
+			(xy 307.34 138.43)
+			(xy 307.34 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b071ef12-3c14-47f5-98d2-ae1fb4da41f4")
+	)
+	(wire
+		(pts
+			(xy 256.54 99.06)
+			(xy 280.67 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b118d6d3-6d3a-4ec1-b503-86e4f0135fb4")
 	)
 	(wire
 		(pts
@@ -4834,6 +5140,17 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 109.22)
+			(xy 345.44 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be0e5ec0-0269-4bf3-aec3-27a5715ed83b")
+	)
+	(wire
+		(pts
 			(xy 120.65 180.34)
 			(xy 123.19 180.34)
 		)
@@ -4853,6 +5170,28 @@
 			(type default)
 		)
 		(uuid "c0c227bd-1730-4fa0-8428-1784ba482e0c")
+	)
+	(wire
+		(pts
+			(xy 318.77 99.06)
+			(xy 345.44 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c13d60ec-3c21-4823-8532-da3eea653cd4")
+	)
+	(wire
+		(pts
+			(xy 318.77 111.76)
+			(xy 345.44 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c25165d0-594a-4ffe-81bf-db565550a956")
 	)
 	(wire
 		(pts
@@ -4966,6 +5305,17 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 101.6)
+			(xy 345.44 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efffe11e-a896-4918-b9fb-b9b7d476e5b6")
+	)
+	(wire
+		(pts
 			(xy 271.78 147.32)
 			(xy 271.78 152.4)
 		)
@@ -5021,6 +5371,17 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 106.68)
+			(xy 280.67 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa533551-7728-4cd0-b96b-d3bc91332a3f")
+	)
+	(wire
+		(pts
 			(xy 190.5 104.14)
 			(xy 163.83 104.14)
 		)
@@ -5054,206 +5415,87 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 93.98)
-			(xy 280.67 93.98)
+			(xy 41.91 111.76)
+			(xy 48.26 111.76)
 		)
-		(uuid "9f54ffe1-6f1c-4511-8ca9-a49eb70159ad")
+		(uuid "1899a24d-c4db-44b6-afb5-9c5fd28ee7fd")
 	)
 	(wire
 		(pts
-			(xy 318.77 106.68)
-			(xy 345.44 106.68)
+			(xy 48.26 111.76)
+			(xy 48.26 116.84)
 		)
-		(uuid "8b8ff337-5f0f-4d58-90c0-b7242e527304")
+		(uuid "4d557a6e-f413-48b1-a957-a0c8e7265faa")
 	)
 	(wire
 		(pts
-			(xy 256.54 96.52)
-			(xy 280.67 96.52)
+			(xy 48.26 116.84)
+			(xy 52.07 116.84)
 		)
-		(uuid "786fa2c3-6ffc-4e0f-b5ce-624fa203cfdc")
+		(uuid "5dc83df4-f6ef-44d4-a344-e78aed7b7b35")
 	)
 	(wire
 		(pts
-			(xy 318.77 101.6)
-			(xy 345.44 101.6)
+			(xy 59.69 116.84)
+			(xy 85.09 116.84)
 		)
-		(uuid "efffe11e-a896-4918-b9fb-b9b7d476e5b6")
+		(uuid "80aeb2f1-cd6b-46e3-aa77-834d1e705d59")
 	)
 	(wire
 		(pts
-			(xy 256.54 99.06)
-			(xy 280.67 99.06)
+			(xy 27.94 210.82)
+			(xy 46.99 210.82)
 		)
-		(uuid "b118d6d3-6d3a-4ec1-b503-86e4f0135fb4")
+		(uuid "8c36f804-c684-4706-8b84-61a9c4342531")
 	)
 	(wire
 		(pts
-			(xy 318.77 104.14)
-			(xy 345.44 104.14)
+			(xy 54.61 210.82)
+			(xy 71.12 210.82)
 		)
-		(uuid "a837f94d-1f3f-480d-bd3e-18936a4cba5a")
+		(uuid "de521c2e-4f34-4a82-b6fc-573fc5f14268")
 	)
 	(wire
 		(pts
-			(xy 256.54 106.68)
-			(xy 280.67 106.68)
+			(xy 63.5 210.82)
+			(xy 63.5 219.71)
 		)
-		(uuid "fa533551-7728-4cd0-b96b-d3bc91332a3f")
+		(uuid "29aaaab7-2d42-4980-965b-aa508776f78d")
 	)
 	(wire
 		(pts
-			(xy 318.77 111.76)
-			(xy 345.44 111.76)
+			(xy 63.5 227.33)
+			(xy 63.5 234.95)
 		)
-		(uuid "c25165d0-594a-4ffe-81bf-db565550a956")
+		(uuid "d8f23b30-8502-48f1-9273-08df639c6445")
 	)
 	(wire
 		(pts
-			(xy 256.54 109.22)
-			(xy 280.67 109.22)
+			(xy 78.74 215.9)
+			(xy 78.74 231.14)
 		)
-		(uuid "21e609e7-2993-41fb-805d-88b2867e58cc")
+		(uuid "7016f32e-60e1-4e99-ba9c-2447bc0be99f")
 	)
 	(wire
 		(pts
-			(xy 318.77 114.3)
-			(xy 345.44 114.3)
+			(xy 78.74 189.23)
+			(xy 78.74 194.31)
 		)
-		(uuid "03a2ee32-db0b-484d-9de9-c6cadc67fc18")
+		(uuid "38b821c2-4eb5-4032-ac7a-441e6ea93d6b")
 	)
 	(wire
 		(pts
-			(xy 256.54 116.84)
-			(xy 280.67 116.84)
+			(xy 78.74 201.93)
+			(xy 78.74 205.74)
 		)
-		(uuid "a8769566-fe59-4557-b03b-f0f90220c65b")
+		(uuid "9b475e07-597b-4d90-8fad-11abc31cd69e")
 	)
 	(wire
 		(pts
-			(xy 318.77 109.22)
-			(xy 345.44 109.22)
+			(xy 78.74 205.74)
+			(xy 115.57 205.74)
 		)
-		(uuid "be0e5ec0-0269-4bf3-aec3-27a5715ed83b")
-	)
-	(wire
-		(pts
-			(xy 307.34 138.43)
-			(xy 307.34 143.51)
-		)
-		(uuid "b071ef12-3c14-47f5-98d2-ae1fb4da41f4")
-	)
-	(wire
-		(pts
-			(xy 307.34 143.51)
-			(xy 320.04 143.51)
-		)
-		(uuid "671dcb89-d7a8-4f3e-a65c-7b6f470692ce")
-	)
-	(wire
-		(pts
-			(xy 66.04 210.82)
-			(xy 93.98 210.82)
-		)
-		(uuid "d3571876-4978-43f1-bd1a-644488b0378f")
-	)
-	(wire
-		(pts
-			(xy 88.9 203.2)
-			(xy 88.9 210.82)
-		)
-		(uuid "fdb4de87-a9ac-48ef-8a65-ba7efbc67632")
-	)
-	(wire
-		(pts
-			(xy 57.15 208.28)
-			(xy 57.15 223.52)
-		)
-		(uuid "7d9cf9bd-620e-41ff-b64c-33417b66168c")
-	)
-	(wire
-		(pts
-			(xy 57.15 215.9)
-			(xy 93.98 215.9)
-		)
-		(uuid "82f8b9fc-0d37-41e1-aa70-5257963750cf")
-	)
-	(wire
-		(pts
-			(xy 57.15 231.14)
-			(xy 57.15 236.22)
-		)
-		(uuid "7739cf08-6937-48ee-9ea1-e2194bed357d")
-	)
-	(wire
-		(pts
-			(xy 57.15 200.66)
-			(xy 57.15 195.58)
-		)
-		(uuid "3a755e7f-abdc-489b-914c-4f975d7e269e")
-	)
-	(wire
-		(pts
-			(xy 325.12 99.06)
-			(xy 345.44 99.06)
-		)
-		(uuid "079caee8-625c-40bd-af48-78b5cdba5969")
-	)
-	(wire
-		(pts
-			(xy 330.2 80.01)
-			(xy 330.2 91.44)
-		)
-		(uuid "5b9d9976-77be-459e-906f-ac778b9895c7")
-	)
-	(wire
-		(pts
-			(xy 318.77 121.92)
-			(xy 345.44 121.92)
-		)
-		(uuid "38cc5e12-8c72-4ca5-a07a-9b86275760c2")
-	)
-	(wire
-		(pts
-			(xy 100.33 200.66)
-			(xy 100.33 204.47)
-		)
-		(uuid "699acc43-4b39-46df-a2e4-bc7a5f0c753a")
-	)
-	(wire
-		(pts
-			(xy 87.63 106.68)
-			(xy 87.63 120.65)
-		)
-		(uuid "407c9717-c080-4134-9d70-6a53576882e0")
-	)
-	(wire
-		(pts
-			(xy 87.63 128.27)
-			(xy 87.63 133.35)
-		)
-		(uuid "78d9ad1a-9001-4350-b189-ddfd266a0286")
-	)
-	(wire
-		(pts
-			(xy 271.78 111.76)
-			(xy 280.67 111.76)
-		)
-		(uuid "876643f2-b5f2-4124-8d53-5fe183482a15")
-	)
-	(wire
-		(pts
-			(xy 318.77 99.06)
-			(xy 325.12 99.06)
-		)
-		(uuid "c13d60ec-3c21-4823-8532-da3eea653cd4")
-	)
-	(wire
-		(pts
-			(xy 256.54 114.3)
-			(xy 280.67 114.3)
-		)
-		(uuid "aec3cd58-cc55-4986-9b1b-b701134a96f7")
+		(uuid "10410e39-d866-4804-a69a-d53b78356213")
 	)
 	(text "R4/R5 hold the address straps low.\nR3 pulls SHDNZ high; GPIO40 controls reset."
 		(at 252.73 177.8 0)
@@ -5315,16 +5557,6 @@
 			(justify left bottom)
 		)
 		(uuid "2e19cc35-bacd-4d55-abaf-af37991096df")
-	)
-	(text "R9 provides the ring load for insertion detection."
-		(at 25.4 149.86 0)
-		(effects
-			(font
-				(size 1.4 1.4)
-			)
-			(justify left bottom)
-		)
-		(uuid "30903ea5-82f6-45a6-9d9f-247ddeb085f0")
 	)
 	(text "14 WS / GPIO39"
 		(at 363.22 107.18 0)
@@ -5388,16 +5620,6 @@
 		)
 		(uuid "879c2ee6-34fd-4f3f-bb55-7247fff24830")
 	)
-	(text "Mono: keep R2 omitted.\nOptional stereo: MICBIAS must stay below the detector threshold (~3.14 V at VCC_3V3 = 3.3 V).\nUse e.g. 2.5 V or 2.75 V MICBIAS; verify on the physical prototype."
-		(at 27.94 269.24 0)
-		(effects
-			(font
-				(size 1.4 1.4)
-			)
-			(justify left bottom)
-		)
-		(uuid "8f3d4015-10e3-4c2e-aeab-5a9262ea46a1")
-	)
 	(text "10 SDA / GPIO41"
 		(at 363.22 112.26 0)
 		(effects
@@ -5407,16 +5629,6 @@
 			(justify left bottom)
 		)
 		(uuid "b5117f95-39a7-4863-808c-b1c9db73f1c9")
-	)
-	(text "J1 SW6/RN normally closed to RING with no plug.\nThe contact opens on insertion; SW4 remains unused.\nR6 then pulls IN+ high: MIC_PRESENT = HIGH.\nOutput interface: J3 pin 20 / GPIO48."
-		(at 27.94 255.27 0)
-		(effects
-			(font
-				(size 1.4 1.4)
-			)
-			(justify left bottom)
-		)
-		(uuid "d4a92c0e-33af-4840-90fe-8dc62c90d60b")
 	)
 	(text "04  AUDIO ADC"
 		(at 193.04 78.74 0)
@@ -5503,6 +5715,16 @@
 		)
 		(uuid "f82c7fad-162a-4139-a0b4-e45a361ae843")
 	)
+	(label "I2S_WS"
+		(at 318.77 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "083a48d4-08c9-4b5c-b03d-611cbb7a958b")
+	)
 	(label "PDM_DATA"
 		(at 144.78 167.64 0)
 		(effects
@@ -5513,15 +5735,35 @@
 		)
 		(uuid "09d97e46-118f-486f-a2f9-dc739511569f")
 	)
-	(label "MIC_PRESENT"
-		(at 128.27 213.36 0)
+	(label "I2S_SDOUT"
+		(at 280.67 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1bac5189-ad58-4fdb-956d-05edd629f62d")
+	)
+	(label "I2C_ADDR0"
+		(at 271.78 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "20e0ce33-7346-4c6b-b4ba-2f140c6a5b6e")
+		(uuid "23bfdc18-508c-4ae6-a76b-dd4c27114518")
+	)
+	(label "I2C_SCL"
+		(at 280.67 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2929bd85-1364-4847-973d-b39759e8f63d")
 	)
 	(label "MIC_RING"
 		(at 121.92 106.68 0)
@@ -5543,15 +5785,15 @@
 		)
 		(uuid "6859ad95-0b63-447f-b731-267285fc6c76")
 	)
-	(label "JACK_DET_RAW"
-		(at 63.5 116.84 0)
+	(label "I2C_SDA"
+		(at 318.77 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "7c0b1a44-b29f-45cf-bbb8-3b5bfbded93d")
+		(uuid "714bba7d-3e74-43a8-ba81-aad0df2fc30c")
 	)
 	(label "PDM_CLK"
 		(at 144.78 165.1 0)
@@ -5563,66 +5805,6 @@
 		)
 		(uuid "80f420e4-bd48-4b0e-a576-387895297e15")
 	)
-	(label "MIC_RING_N"
-		(at 152.4 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "889c1153-8c7e-4f23-9763-dc8964c40d44")
-	)
-	(label "JACK_RING"
-		(at 66.04 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8fb66c96-7138-4efc-812a-9b4aaeb45cd2")
-	)
-	(label "JACK_TIP"
-		(at 85.09 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ab3dd16c-af99-4023-bcbc-23bce32d617b")
-	)
-	(label "MIC_TIP_N"
-		(at 166.37 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c6bafc4c-7677-43b0-91e0-ed914224def3")
-	)
-	(label "I2S_WS"
-		(at 318.77 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "083a48d4-08c9-4b5c-b03d-611cbb7a958b")
-	)
-	(label "I2S_BCLK"
-		(at 318.77 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f5824223-be94-457c-8069-04245059aee4")
-	)
 	(label "I2S_SDOUT"
 		(at 318.77 104.14 0)
 		(effects
@@ -5633,155 +5815,15 @@
 		)
 		(uuid "8120bcb2-ce2a-4f1a-9588-d352dd9bd83d")
 	)
-	(label "I2C_SDA"
-		(at 318.77 111.76 0)
+	(label "MIC_RING_N"
+		(at 152.4 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "714bba7d-3e74-43a8-ba81-aad0df2fc30c")
-	)
-	(label "I2C_SCL"
-		(at 318.77 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b1e3d483-590e-41b6-9630-ea68af1949c3")
-	)
-	(label "ADC_RST"
-		(at 318.77 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "edffe678-6040-4b47-8ddf-8fe4db940458")
-	)
-	(label "ADC_RST"
-		(at 320.04 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9db9b508-9742-4705-91fb-20c2bdbdb232")
-	)
-	(label "JACK_DET_RAW"
-		(at 66.04 210.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "255722f8-2351-41bb-a709-995e6f055087")
-	)
-	(label "DET_THRESHOLD"
-		(at 66.04 215.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e402488b-05bd-4a5f-b7c9-904f44a4e0e3")
-	)
-	(label "I2C_ADDR0"
-		(at 271.78 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "23bfdc18-508c-4ae6-a76b-dd4c27114518")
-	)
-	(label "I2C_ADDR1"
-		(at 289.56 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c15ca85d-db10-4f4f-956f-dca7242fd360")
-	)
-	(label "I2S_WS"
-		(at 280.67 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e4f09619-5f0c-4548-88fc-534003d7f1b8")
-	)
-	(label "I2S_BCLK"
-		(at 280.67 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a3f458f6-c08c-4857-bde1-6b5afeed5c46")
-	)
-	(label "I2S_SDOUT"
-		(at 280.67 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1bac5189-ad58-4fdb-956d-05edd629f62d")
-	)
-	(label "I2C_SDA"
-		(at 280.67 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9de40906-1f63-4c71-9cdc-ae7227151a2b")
-	)
-	(label "I2C_SCL"
-		(at 280.67 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2929bd85-1364-4847-973d-b39759e8f63d")
-	)
-	(label "ADC_RST"
-		(at 280.67 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ac999f49-d596-498b-b887-1d8cfbfe5cfb")
-	)
-	(label "I2C_ADDR0"
-		(at 280.67 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b5e67e8a-1d05-401e-b0a2-453254bad4b0")
+		(uuid "889c1153-8c7e-4f23-9763-dc8964c40d44")
 	)
 	(label "MIC_PRESENT"
 		(at 318.77 99.06 0)
@@ -5793,6 +5835,106 @@
 		)
 		(uuid "8d433da3-b9d3-4b88-98c2-b47866be947f")
 	)
+	(label "JACK_RING"
+		(at 66.04 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fb66c96-7138-4efc-812a-9b4aaeb45cd2")
+	)
+	(label "ADC_RST"
+		(at 320.04 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9db9b508-9742-4705-91fb-20c2bdbdb232")
+	)
+	(label "I2C_SDA"
+		(at 280.67 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9de40906-1f63-4c71-9cdc-ae7227151a2b")
+	)
+	(label "I2S_BCLK"
+		(at 280.67 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a3f458f6-c08c-4857-bde1-6b5afeed5c46")
+	)
+	(label "JACK_TIP"
+		(at 85.09 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab3dd16c-af99-4023-bcbc-23bce32d617b")
+	)
+	(label "ADC_RST"
+		(at 280.67 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ac999f49-d596-498b-b887-1d8cfbfe5cfb")
+	)
+	(label "I2C_SCL"
+		(at 318.77 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1e3d483-590e-41b6-9630-ea68af1949c3")
+	)
+	(label "I2C_ADDR0"
+		(at 280.67 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b5e67e8a-1d05-401e-b0a2-453254bad4b0")
+	)
+	(label "I2C_ADDR1"
+		(at 289.56 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c15ca85d-db10-4f4f-956f-dca7242fd360")
+	)
+	(label "MIC_TIP_N"
+		(at 166.37 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6bafc4c-7677-43b0-91e0-ed914224def3")
+	)
 	(label "I2C_ADDR1"
 		(at 280.67 114.3 180)
 		(effects
@@ -5803,6 +5945,81 @@
 		)
 		(uuid "dfdecb0d-8c5f-4e84-acba-d4590d0b228a")
 	)
+	(label "I2S_WS"
+		(at 280.67 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e4f09619-5f0c-4548-88fc-534003d7f1b8")
+	)
+	(label "ADC_RST"
+		(at 318.77 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "edffe678-6040-4b47-8ddf-8fe4db940458")
+	)
+	(label "I2S_BCLK"
+		(at 318.77 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5824223-be94-457c-8069-04245059aee4")
+	)
+	(label "JACK_BIAS_SENSE"
+		(at 85.09 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "723cfee3-73b6-4c42-aea6-07cda30f88e8")
+	)
+	(label "JACK_BIAS_SENSE"
+		(at 27.94 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fd110ab-e3f0-4fff-a183-3b1b5a97793c")
+	)
+	(label "MIC_PRESENT"
+		(at 115.57 205.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "36d91040-f5cc-4577-851c-0414108e4ecd")
+	)
+  (text "R10: removable 0 ohm link from J1 pin 4 (SW4).\nAssumed NC to biased TIP; verify with the actual jack."
+    (at 25.4 149.86 0)
+    (effects (font (size 1.4 1.4)) (justify left bottom))
+    (uuid "fc984b88-5a54-4eca-a5e1-d6cb2aa149eb")
+  )
+  (text "MICBIAS enabled: no plug = Q1 on / MIC_PRESENT LOW.\nPlug inserted: tip switch opens / MIC_PRESENT HIGH.\nGPIO48: input, internal pulls disabled; debounce in firmware."
+    (at 27.94 255.27 0)
+    (effects (font (size 1.4 1.4)) (justify left bottom))
+    (uuid "7af11a18-52b5-44c9-9840-ba3568db8b33")
+  )
+  (text "Enable MICBIAS and wait for settling before reading detection.\nRemove R10 to isolate detection if contact mapping is wrong;\nthen ignore MIC_PRESENT in firmware (it remains HIGH)."
+    (at 27.94 269.24 0)
+    (effects (font (size 1.4 1.4)) (justify left bottom))
+    (uuid "dae18291-7540-4e54-be90-f333621810c9")
+  )
 	(symbol
 		(lib_id "power:GND")
 		(at 148.59 139.7 0)
@@ -5875,6 +6092,237 @@
 			(project "birdnet-mic-hat"
 				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 330.2 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0606a66c-7cee-4049-a17e-136d61094374")
+		(property "Reference" "#PWR111"
+			(at 330.2 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC_3V3"
+			(at 330.2 76.454 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 330.2 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(body_style 1)
+		(in_pos_files yes)
+		(pin "1"
+			(uuid "41b62f27-1cf6-4d6c-9160-eb3efe2267b9")
+		)
+		(instances
+			(project "birdnet-mic-hat"
+				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
+					(reference "#PWR111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 129.54 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0621fe0f-8e6e-4fb8-aa7d-70a2b3fe6d91")
+		(property "Reference" "#PWR105"
+			(at 129.54 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MICBIAS"
+			(at 129.54 42.164 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 129.54 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(body_style 1)
+		(in_pos_files yes)
+		(pin "1"
+			(uuid "08cdd87f-0e0c-4adc-a1d4-9e6caddd8648")
+		)
+		(instances
+			(project "birdnet-mic-hat"
+				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
+					(reference "#PWR105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 76.2 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0704d97f-c156-4ab5-816b-b8ea20db2592")
+		(property "Reference" "#PWR109"
+			(at 76.2 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MICBIAS"
+			(at 76.2 72.644 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 76.2 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(body_style 1)
+		(in_pos_files yes)
+		(pin "1"
+			(uuid "256baec4-a34f-4735-b86f-a2ef877ee4c2")
+		)
+		(instances
+			(project "birdnet-mic-hat"
+				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
+					(reference "#PWR109")
 					(unit 1)
 				)
 			)
@@ -5956,6 +6404,160 @@
 			(project "birdnet-mic-hat"
 				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 297.18 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "168a0509-b6e4-45aa-8653-818578ff80d7")
+		(property "Reference" "#PWR114"
+			(at 297.18 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC_3V3"
+			(at 297.18 127.254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 297.18 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 297.18 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(body_style 1)
+		(in_pos_files yes)
+		(pin "1"
+			(uuid "69e4224b-992f-44d4-a2a4-0d82e35932d5")
+		)
+		(instances
+			(project "birdnet-mic-hat"
+				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
+					(reference "#PWR114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 44.45 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2417c13c-727f-4f09-87ae-428cc4cdcda3")
+		(property "Reference" "#PWR101"
+			(at 44.45 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VIN"
+			(at 44.45 34.544 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 44.45 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(body_style 1)
+		(in_pos_files yes)
+		(pin "1"
+			(uuid "730011a5-8ca6-4ef0-9935-2a2d77bb619d")
+		)
+		(instances
+			(project "birdnet-mic-hat"
+				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
+					(reference "#PWR101")
 					(unit 1)
 				)
 			)
@@ -6290,6 +6892,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 87.63 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3442ed08-f446-456d-b4d8-674d2548543f")
+		(property "Reference" "#PWR102"
+			(at 87.63 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AVDD"
+			(at 87.63 34.544 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 87.63 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(body_style 1)
+		(in_pos_files yes)
+		(pin "1"
+			(uuid "ab9747f5-e5d9-4032-9253-c9e750bee5cb")
+		)
+		(instances
+			(project "birdnet-mic-hat"
+				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
+					(reference "#PWR102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 332.74 128.27 0)
 		(unit 1)
@@ -6519,6 +7198,83 @@
 			(project "birdnet-mic-hat"
 				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 180.34 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41e14d30-a311-4cd0-98a7-69adc7cfbec2")
+		(property "Reference" "#PWR103"
+			(at 180.34 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AREG"
+			(at 180.34 62.484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 180.34 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(body_style 1)
+		(in_pos_files yes)
+		(pin "1"
+			(uuid "b1a97cce-46b1-4725-b06a-e447334c73a2")
+		)
+		(instances
+			(project "birdnet-mic-hat"
+				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
+					(reference "#PWR103")
 					(unit 1)
 				)
 			)
@@ -6755,83 +7511,6 @@
 			(project "birdnet-mic-hat"
 				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 119.38 208.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "49887db5-b5b8-4fa9-b3b2-ad9d01184dc1")
-		(property "Reference" "#PWR026"
-			(at 119.38 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 209.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(body_style 1)
-		(in_pos_files yes)
-		(pin "1"
-			(uuid "5816aa74-5b3b-4d52-ad13-3734079f3130")
-		)
-		(instances
-			(project "birdnet-mic-hat"
-				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -7148,164 +7827,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 88.9 199.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "63f7841b-2273-4cf8-97bd-cc25591f1710")
-		(property "Reference" "R6"
-			(at 92.71 198.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1M"
-			(at 92.71 200.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 88.9 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 88.9 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(body_style 1)
-		(in_pos_files yes)
-		(pin "2"
-			(uuid "7ff63010-278d-460e-8b15-3dc83d584e65")
-		)
-		(pin "1"
-			(uuid "e5297ac4-e1b0-4d58-bd75-e1cd8e6191d0")
-		)
-		(instances
-			(project "birdnet-mic-hat"
-				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 87.63 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "670e1805-d438-4fc4-ac7e-8450056d886a")
-		(property "Reference" "R9"
-			(at 91.44 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1M"
-			(at 91.44 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 87.63 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 87.63 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(body_style 1)
-		(in_pos_files yes)
-		(pin "1"
-			(uuid "d08ea1fd-effd-48ff-8520-a1f058b7f11f")
-		)
-		(pin "2"
-			(uuid "6a51707e-d992-4f3f-8309-78e73e37291a")
-		)
-		(instances
-			(project "birdnet-mic-hat"
-				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x15_Odd_Even")
 		(at 353.06 104.14 180)
 		(unit 1)
@@ -7463,6 +7984,83 @@
 			(project "birdnet-mic-hat"
 				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 325.12 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "724e6ac3-cf96-4403-926a-40e6799c0101")
+		(property "Reference" "#PWR113"
+			(at 325.12 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC_3V3"
+			(at 325.12 160.274 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 325.12 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(body_style 1)
+		(in_pos_files yes)
+		(pin "1"
+			(uuid "92a61836-fc06-410c-8008-39a3079b4da9")
+		)
+		(instances
+			(project "birdnet-mic-hat"
+				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
+					(reference "#PWR113")
 					(unit 1)
 				)
 			)
@@ -7661,16 +8259,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 57.15 227.33 0)
+		(lib_id "power:VDD")
+		(at 276.86 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7d18ff7c-6fe2-4a50-8366-186ffb2d6e3f")
-		(property "Reference" "R8"
-			(at 60.96 226.06 0)
+		(uuid "79d96dec-7ec2-424e-be88-05f709ca6edc")
+		(property "Reference" "#PWR107"
+			(at 276.86 64.77 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7679,8 +8278,8 @@
 				)
 			)
 		)
-		(property "Value" "1M"
-			(at 60.96 228.6 0)
+		(property "Value" "DREG"
+			(at 276.86 57.404 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7689,8 +8288,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 57.15 227.33 0)
+		(property "Footprint" ""
+			(at 276.86 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7701,7 +8300,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 227.33 0)
+			(at 276.86 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7711,8 +8310,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 57.15 227.33 0)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 276.86 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7725,15 +8324,12 @@
 		(body_style 1)
 		(in_pos_files yes)
 		(pin "1"
-			(uuid "6b925811-1638-4ad3-b859-11a5d0cccb68")
-		)
-		(pin "2"
-			(uuid "7688c798-e522-4b51-a817-ddc63e03bcc8")
+			(uuid "85ab3dc0-ea36-4325-99cf-0d966d724004")
 		)
 		(instances
 			(project "birdnet-mic-hat"
 				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "R8")
+					(reference "#PWR107")
 					(unit 1)
 				)
 			)
@@ -7817,38 +8413,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 119.38 199.39 0)
+		(lib_id "power:VDD")
+		(at 185.42 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8d6f187b-ffeb-445e-b6d4-3b1c2c0a75c6")
-		(property "Reference" "C13"
-			(at 120.015 196.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 120.015 201.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 119.38 199.39 0)
+		(uuid "8f8a78a1-578e-491d-82d5-5c434897cd47")
+		(property "Reference" "#PWR106"
+			(at 189.23 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7858,67 +8432,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 119.38 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 119.38 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(body_style 1)
-		(in_pos_files yes)
-		(pin "1"
-			(uuid "2ccc208d-d637-4ee3-9393-f16f49d316d7")
-		)
-		(pin "2"
-			(uuid "ca7d1e99-8ea7-4110-82df-faa79ef5afbb")
-		)
-		(instances
-			(project "birdnet-mic-hat"
-				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 87.63 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8db528e2-5983-4cde-a237-b86b8069f42a")
-		(property "Reference" "#PWR025"
-			(at 87.63 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 87.63 137.16 0)
+		(property "Value" "AVDD"
+			(at 181.864 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7928,7 +8443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 133.35 0)
+			(at 185.42 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7939,7 +8454,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 133.35 0)
+			(at 185.42 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7949,8 +8464,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 133.35 0)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 185.42 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7963,12 +8478,89 @@
 		(body_style 1)
 		(in_pos_files yes)
 		(pin "1"
-			(uuid "1ef3b25d-1921-47fa-9a57-1846cbb4244e")
+			(uuid "686299a1-29ea-459e-8fc5-8906ffcbb0f7")
 		)
 		(instances
 			(project "birdnet-mic-hat"
 				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "#PWR025")
+					(reference "#PWR106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 104.14 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8fdc0e77-29f8-40c9-b5ad-ab31f2a1d9c0")
+		(property "Reference" "#PWR110"
+			(at 104.14 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AVDD"
+			(at 110.49 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 104.14 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(body_style 1)
+		(in_pos_files yes)
+		(pin "1"
+			(uuid "d2bb8105-8b3f-4517-8e00-3e923756ec35")
+		)
+		(instances
+			(project "birdnet-mic-hat"
+				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
+					(reference "#PWR110")
 					(unit 1)
 				)
 			)
@@ -8445,83 +9037,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 100.33 227.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b661e387-257f-4cba-a207-2964ad1ec179")
-		(property "Reference" "#PWR023"
-			(at 100.33 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 100.33 231.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(body_style 1)
-		(in_pos_files yes)
-		(pin "1"
-			(uuid "aca363bd-c3b8-4a3e-9e0a-5daec340c8db")
-		)
-		(instances
-			(project "birdnet-mic-hat"
-				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 148.59 130.81 0)
 		(unit 1)
@@ -8607,85 +9122,6 @@
 			(project "birdnet-mic-hat"
 				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 57.15 204.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c22ef25f-7639-4a33-a7cf-5b32db231390")
-		(property "Reference" "R7"
-			(at 60.96 203.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "51k"
-			(at 60.96 205.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 57.15 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 57.15 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(body_style 1)
-		(in_pos_files yes)
-		(pin "2"
-			(uuid "acdf8917-dce8-4dd9-b11c-775d20687838")
-		)
-		(pin "1"
-			(uuid "b3b58686-7c78-4001-bc1e-bbfb77b77eae")
-		)
-		(instances
-			(project "birdnet-mic-hat"
-				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -9266,6 +9702,83 @@
 			(project "birdnet-mic-hat"
 				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 294.64 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3d3fb67-a43f-4a1e-9e82-14e5d3696b8b")
+		(property "Reference" "#PWR108"
+			(at 294.64 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC_3V3"
+			(at 294.64 72.644 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 294.64 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(body_style 1)
+		(in_pos_files yes)
+		(pin "1"
+			(uuid "9d9ee479-b27b-48e6-858d-19ca84a0d6ac")
+		)
+		(instances
+			(project "birdnet-mic-hat"
+				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
+					(reference "#PWR108")
 					(unit 1)
 				)
 			)
@@ -9906,16 +10419,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 57.15 236.22 0)
+		(lib_id "power:VDD")
+		(at 318.77 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ebce50cd-b113-4f3e-97ed-3f79392eddcc")
-		(property "Reference" "#PWR024"
-			(at 57.15 242.57 0)
+		(uuid "eb391deb-621e-4561-926b-bcea5efabb67")
+		(property "Reference" "#PWR112"
+			(at 318.77 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9925,8 +10438,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 57.15 240.03 0)
+		(property "Value" "VIN"
+			(at 318.77 118.364 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9936,7 +10449,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 236.22 0)
+			(at 318.77 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9947,7 +10460,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 236.22 0)
+			(at 318.77 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9957,8 +10470,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 236.22 0)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 318.77 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9971,12 +10484,12 @@
 		(body_style 1)
 		(in_pos_files yes)
 		(pin "1"
-			(uuid "74d632e7-79ad-4835-97b7-d3fee086672c")
+			(uuid "0af93f97-951c-431f-836f-e0a07b7a562b")
 		)
 		(instances
 			(project "birdnet-mic-hat"
 				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "#PWR024")
+					(reference "#PWR112")
 					(unit 1)
 				)
 			)
@@ -10143,6 +10656,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 144.78 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef57843f-34b6-484c-b2d8-2d99a37900dd")
+		(property "Reference" "#PWR104"
+			(at 144.78 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VREF"
+			(at 144.78 52.324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 144.78 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(body_style 1)
+		(in_pos_files yes)
+		(pin "1"
+			(uuid "bf53ac6a-2a7e-4f4c-a8a6-a790df7b4ace")
+		)
+		(instances
+			(project "birdnet-mic-hat"
+				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
+					(reference "#PWR104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 289.56 162.56 0)
 		(unit 1)
@@ -10297,116 +10887,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BirdNetMicHat:TLV3691_SC70")
-		(at 100.33 213.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f6d9acbd-24e2-4ccb-b8ac-f5203a16f7e8")
-		(property "Reference" "U3"
-			(at 115.57 219.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV3691IDCKR"
-			(at 115.57 222.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 100.33 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv3691.pdf"
-			(at 100.33 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C180352"
-			(at 100.33 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TLV3691IDCKR"
-			(at 100.33 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(body_style 1)
-		(in_pos_files yes)
-		(pin "5"
-			(uuid "19354f64-bce8-4e0a-b3d2-2ed6663782dd")
-		)
-		(pin "3"
-			(uuid "2399753a-3c13-4349-9403-7c451d1f65f7")
-		)
-		(pin "4"
-			(uuid "3bf002eb-a5ae-469a-b9b2-965fadd7f1e1")
-		)
-		(pin "2"
-			(uuid "b15d9804-9dae-4f35-9190-f1f99ae237aa")
-		)
-		(pin "1"
-			(uuid "4e8e7592-1cba-41fd-8c7a-d1b28605443e")
-		)
-		(instances
-			(project "birdnet-mic-hat"
-				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ADC5140:XLV320ADC5140IRTWR")
 		(at 190.5 88.9 0)
 		(unit 1)
@@ -10554,15 +11034,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 44.45 38.1 0)
+		(lib_id "Transistor_BJT:MMBT3904")
+		(at 76.2 210.82 0)
 		(unit 1)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2417c13c-727f-4f09-87ae-428cc4cdcda3")
-		(property "Reference" "#PWR101"
-			(at 44.45 41.91 0)
+		(uuid "7d15063e-bc32-4eeb-9238-c46829f552f4")
+		(property "Reference" "Q1"
+			(at 81.28 208.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3904"
+			(at 81.28 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 76.2 210.82 0)
 			(hide yes)
 			(effects
 				(font
@@ -10570,16 +11068,8 @@
 				)
 			)
 		)
-		(property "Value" "VIN"
-			(at 44.45 34.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 38.1 0)
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/9335632bcfa83df8351353eab379720e.pdf?productCode=C20526"
+			(at 76.2 210.82 0)
 			(hide yes)
 			(effects
 				(font
@@ -10587,8 +11077,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 44.45 38.1 0)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 76.2 210.82 0)
 			(hide yes)
 			(effects
 				(font
@@ -10596,8 +11086,26 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 44.45 38.1 0)
+		(property "LCSC" "C20526"
+			(at 76.2 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MMBT3904"
+			(at 76.2 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JSCJ"
+			(at 76.2 210.82 0)
 			(hide yes)
 			(effects
 				(font
@@ -10608,39 +11116,38 @@
 		(instances
 			(project "birdnet-mic-hat"
 				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "#PWR101")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 87.63 38.1 0)
+		(lib_id "Device:R")
+		(at 50.8 210.82 90)
 		(unit 1)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3442ed08-f446-456d-b4d8-674d2548543f")
-		(property "Reference" "#PWR102"
-			(at 87.63 41.91 0)
-			(hide yes)
+		(uuid "9acc4bda-d2b5-45fb-a4cd-ab6b6552be2e")
+		(property "Reference" "R6"
+			(at 50.8 208.788 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "AVDD"
-			(at 87.63 34.544 0)
+		(property "Value" "47k"
+			(at 50.8 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 87.63 38.1 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 50.8 210.82 0)
 			(hide yes)
 			(effects
 				(font
@@ -10649,7 +11156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 38.1 0)
+			(at 50.8 210.82 0)
 			(hide yes)
 			(effects
 				(font
@@ -10657,8 +11164,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 87.63 38.1 0)
+		(property "Description" "Resistor"
+			(at 50.8 210.82 0)
 			(hide yes)
 			(effects
 				(font
@@ -10669,39 +11176,38 @@
 		(instances
 			(project "birdnet-mic-hat"
 				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "#PWR102")
+					(reference "R6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 180.34 66.04 0)
+		(lib_id "Device:R")
+		(at 78.74 198.12 0)
 		(unit 1)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "41e14d30-a311-4cd0-98a7-69adc7cfbec2")
-		(property "Reference" "#PWR103"
-			(at 180.34 69.85 0)
-			(hide yes)
+		(uuid "6c53255a-7863-4313-afac-097b20abbe15")
+		(property "Reference" "R7"
+			(at 80.772 198.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "AREG"
-			(at 180.34 62.484 0)
+		(property "Value" "100k"
+			(at 78.74 198.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 180.34 66.04 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 78.74 198.12 0)
 			(hide yes)
 			(effects
 				(font
@@ -10710,7 +11216,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 66.04 0)
+			(at 78.74 198.12 0)
 			(hide yes)
 			(effects
 				(font
@@ -10718,8 +11224,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 180.34 66.04 0)
+		(property "Description" "Resistor"
+			(at 78.74 198.12 0)
 			(hide yes)
 			(effects
 				(font
@@ -10730,39 +11236,38 @@
 		(instances
 			(project "birdnet-mic-hat"
 				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "#PWR103")
+					(reference "R7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 144.78 55.88 0)
+		(lib_id "Device:R")
+		(at 63.5 223.52 0)
 		(unit 1)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ef57843f-34b6-484c-b2d8-2d99a37900dd")
-		(property "Reference" "#PWR104"
-			(at 144.78 59.69 0)
-			(hide yes)
+		(uuid "45a96d32-dcf1-47b3-ac46-e570aca960af")
+		(property "Reference" "R8"
+			(at 65.532 223.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "VREF"
-			(at 144.78 52.324 0)
+		(property "Value" "1M"
+			(at 63.5 223.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 144.78 55.88 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 63.5 223.52 0)
 			(hide yes)
 			(effects
 				(font
@@ -10771,7 +11276,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 55.88 0)
+			(at 63.5 223.52 0)
 			(hide yes)
 			(effects
 				(font
@@ -10779,8 +11284,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 144.78 55.88 0)
+		(property "Description" "Resistor"
+			(at 63.5 223.52 0)
 			(hide yes)
 			(effects
 				(font
@@ -10791,39 +11296,38 @@
 		(instances
 			(project "birdnet-mic-hat"
 				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "#PWR104")
+					(reference "R8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 129.54 45.72 0)
+		(lib_id "Device:R")
+		(at 55.88 116.84 90)
 		(unit 1)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0621fe0f-8e6e-4fb8-aa7d-70a2b3fe6d91")
-		(property "Reference" "#PWR105"
-			(at 129.54 49.53 0)
-			(hide yes)
+		(uuid "5c49ae3f-fff1-4264-9aa2-bf497d4e7faf")
+		(property "Reference" "R10"
+			(at 55.88 114.808 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MICBIAS"
-			(at 129.54 42.164 0)
+		(property "Value" "0"
+			(at 55.88 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 129.54 45.72 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 55.88 116.84 0)
 			(hide yes)
 			(effects
 				(font
@@ -10832,7 +11336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 45.72 0)
+			(at 55.88 116.84 0)
 			(hide yes)
 			(effects
 				(font
@@ -10840,8 +11344,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 129.54 45.72 0)
+		(property "Description" "Remove to disable jack detection"
+			(at 55.88 116.84 0)
 			(hide yes)
 			(effects
 				(font
@@ -10852,7 +11356,7 @@
 		(instances
 			(project "birdnet-mic-hat"
 				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "#PWR105")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -10860,563 +11364,14 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 185.42 88.9 90)
+		(at 78.74 189.23 0)
 		(unit 1)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8f8a78a1-578e-491d-82d5-5c434897cd47")
-		(property "Reference" "#PWR106"
-			(at 189.23 88.9 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AVDD"
-			(at 181.864 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 88.9 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 88.9 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 185.42 88.9 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "birdnet-mic-hat"
-				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "#PWR106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 276.86 60.96 0)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "79d96dec-7ec2-424e-be88-05f709ca6edc")
-		(property "Reference" "#PWR107"
-			(at 276.86 64.77 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DREG"
-			(at 276.86 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 276.86 60.96 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 60.96 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 276.86 60.96 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "birdnet-mic-hat"
-				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "#PWR107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 294.64 76.2 0)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d3d3fb67-a43f-4a1e-9e82-14e5d3696b8b")
-		(property "Reference" "#PWR108"
-			(at 294.64 80.01 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_3V3"
-			(at 294.64 72.644 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 294.64 76.2 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 294.64 76.2 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 294.64 76.2 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "birdnet-mic-hat"
-				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "#PWR108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 76.2 76.2 0)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0704d97f-c156-4ab5-816b-b8ea20db2592")
-		(property "Reference" "#PWR109"
-			(at 76.2 80.01 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MICBIAS"
-			(at 76.2 72.644 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 76.2 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 76.2 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 76.2 76.2 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "birdnet-mic-hat"
-				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "#PWR109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 104.14 151.13 0)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8fdc0e77-29f8-40c9-b5ad-ab31f2a1d9c0")
-		(property "Reference" "#PWR110"
-			(at 104.14 154.94 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AVDD"
-			(at 110.49 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 151.13 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 151.13 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 104.14 151.13 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "birdnet-mic-hat"
-				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "#PWR110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 330.2 80.01 0)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0606a66c-7cee-4049-a17e-136d61094374")
-		(property "Reference" "#PWR111"
-			(at 330.2 83.82 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_3V3"
-			(at 330.2 76.454 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 330.2 80.01 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 330.2 80.01 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 330.2 80.01 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "birdnet-mic-hat"
-				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "#PWR111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 318.77 121.92 0)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb391deb-621e-4561-926b-bcea5efabb67")
-		(property "Reference" "#PWR112"
-			(at 318.77 125.73 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VIN"
-			(at 318.77 118.364 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 318.77 121.92 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 318.77 121.92 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 318.77 121.92 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "birdnet-mic-hat"
-				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "#PWR112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 325.12 163.83 0)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "724e6ac3-cf96-4403-926a-40e6799c0101")
-		(property "Reference" "#PWR113"
-			(at 325.12 167.64 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_3V3"
-			(at 325.12 160.274 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 325.12 163.83 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 325.12 163.83 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 325.12 163.83 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "birdnet-mic-hat"
-				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "#PWR113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 297.18 130.81 0)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "168a0509-b6e4-45aa-8653-818578ff80d7")
-		(property "Reference" "#PWR114"
-			(at 297.18 134.62 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_3V3"
-			(at 297.18 127.254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 297.18 130.81 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 297.18 130.81 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 297.18 130.81 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "birdnet-mic-hat"
-				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "#PWR114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 57.15 195.58 0)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "517a928b-5fdc-4734-ac6c-241ab70ff59b")
+		(uuid "f041e1ae-c968-462d-9038-4d847611661b")
 		(property "Reference" "#PWR115"
-			(at 57.15 199.39 0)
+			(at 78.74 193.04 0)
 			(hide yes)
 			(effects
 				(font
@@ -11425,7 +11380,7 @@
 			)
 		)
 		(property "Value" "VCC_3V3"
-			(at 57.15 192.024 0)
+			(at 78.74 185.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11433,7 +11388,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 195.58 0)
+			(at 78.74 189.23 0)
 			(hide yes)
 			(effects
 				(font
@@ -11442,7 +11397,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 195.58 0)
+			(at 78.74 189.23 0)
 			(hide yes)
 			(effects
 				(font
@@ -11451,7 +11406,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 57.15 195.58 0)
+			(at 78.74 189.23 0)
 			(hide yes)
 			(effects
 				(font
@@ -11469,15 +11424,15 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 88.9 195.58 0)
+		(lib_id "power:GND")
+		(at 78.74 231.14 0)
 		(unit 1)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0232ed0d-4158-4e7e-9928-53a775d50ede")
-		(property "Reference" "#PWR116"
-			(at 88.9 199.39 0)
+		(uuid "425fa76b-4872-468b-8bc2-2823ebbb3d8d")
+		(property "Reference" "#PWR023"
+			(at 78.74 237.49 0)
 			(hide yes)
 			(effects
 				(font
@@ -11485,8 +11440,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC_3V3"
-			(at 88.9 192.024 0)
+		(property "Value" "GND"
+			(at 78.74 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11494,7 +11449,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 195.58 0)
+			(at 78.74 231.14 0)
 			(hide yes)
 			(effects
 				(font
@@ -11503,7 +11458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 195.58 0)
+			(at 78.74 231.14 0)
 			(hide yes)
 			(effects
 				(font
@@ -11511,8 +11466,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 88.9 195.58 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 231.14 0)
 			(hide yes)
 			(effects
 				(font
@@ -11523,22 +11478,22 @@
 		(instances
 			(project "birdnet-mic-hat"
 				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "#PWR116")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 119.38 195.58 0)
+		(lib_id "power:GND")
+		(at 63.5 234.95 0)
 		(unit 1)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "af40d5be-2eb6-43bf-a6b6-8becab9cbed5")
-		(property "Reference" "#PWR117"
-			(at 119.38 199.39 0)
+		(uuid "f028bb8f-b9d0-4510-a700-a3ffdaa8815c")
+		(property "Reference" "#PWR024"
+			(at 63.5 241.3 0)
 			(hide yes)
 			(effects
 				(font
@@ -11546,8 +11501,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC_3V3"
-			(at 119.38 192.024 0)
+		(property "Value" "GND"
+			(at 63.5 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11555,7 +11510,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 195.58 0)
+			(at 63.5 234.95 0)
 			(hide yes)
 			(effects
 				(font
@@ -11564,7 +11519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 195.58 0)
+			(at 63.5 234.95 0)
 			(hide yes)
 			(effects
 				(font
@@ -11572,8 +11527,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 119.38 195.58 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 234.95 0)
 			(hide yes)
 			(effects
 				(font
@@ -11584,68 +11539,7 @@
 		(instances
 			(project "birdnet-mic-hat"
 				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "#PWR117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 100.33 200.66 0)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "68c5f238-62c0-4366-9038-05214ce8e6c1")
-		(property "Reference" "#PWR118"
-			(at 100.33 204.47 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_3V3"
-			(at 100.33 197.104 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 200.66 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 200.66 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 100.33 200.66 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "birdnet-mic-hat"
-				(path "/7210c06b-529b-4ade-802a-cad5b79dec39"
-					(reference "#PWR118")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
