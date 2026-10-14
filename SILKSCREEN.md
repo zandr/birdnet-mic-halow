@@ -16,3 +16,5 @@ The added dots are board graphics. If either component moves or rotates, move it
 Verified 14 October 2026: every reference field hidden; exactly two added pin-1 polygons with the stated dimensions; existing track/via geometry and pad connections/geometry unchanged. Saved-board DRC reports zero errors, zero unconnected items, zero schematic parity differences, and no silkscreen violations. Two existing library mismatch warnings remain for U1 and J3.
 
 The separate board-text labels C12 and J1 have also been removed. Hiding reference fields alone did not affect these manually placed labels. The only remaining standalone front silkscreen text is MIC and MIC HAT.
+
+MIC and MIC HAT have also been removed at the user's request. No standalone front silkscreen text remains; orientation marks and component outlines remain.
