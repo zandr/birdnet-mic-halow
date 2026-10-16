@@ -1,0 +1,27 @@
+{
+  "/PDM_DATA": {
+    "vias_before": 4,
+    "vias_after": 0,
+    "length_before_mm": 15.983,
+    "length_after_mm": 13.197,
+    "layers_after": [
+      "F.Cu"
+    ]
+  },
+  "/PDM_CLK": {
+    "vias_before": 3,
+    "vias_after": 0,
+    "length_before_mm": 20.413,
+    "length_after_mm": 17.107,
+    "layers_after": [
+      "F.Cu"
+    ]
+  },
+  "footprints_and_pad_nets_preserved": true,
+  "vias_total_before": 51,
+  "vias_total_after": 45,
+  "added_ground_stitch_mm": [
+    106.9,
+    119.3
+  ]
+}
