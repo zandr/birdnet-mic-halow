@@ -1,0 +1,16 @@
+{
+  "footprints_preserved": 26,
+  "pad_nets_and_positions_preserved": true,
+  "vias_before": 52,
+  "vias_after": 51,
+  "via_moved": [
+    "677d0811-e62e-482e-a929-7d6538d0d84b"
+  ],
+  "via_removed": [
+    "ce30e33f-a697-41a4-9ab8-434fcef218c4"
+  ],
+  "trace_segments_before": 223,
+  "trace_segments_after": 234,
+  "trace_length_before_mm": 312.859,
+  "trace_length_after_mm": 310.679
+}
