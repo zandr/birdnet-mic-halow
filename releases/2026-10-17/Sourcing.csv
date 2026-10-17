@@ -1,0 +1,15 @@
+Designator,MPN,Manufacturer,LCSC,Specification,Source,Checked,Status
+"C1,C4,C5,C6,C8,C9",0402X105K160NT,FH,C167339,1uF 16V X5R +/-10% 0402,https://www.lcsc.com/product-detail/C167339.html,2026-10-14,CATALOGUE_MATCH; check JLC stock/assembly availability
+"C2,C10",CC0603KRX7R7BB105,YAGEO,C106248,1uF 16V X7R +/-10% 0603,https://www.lcsc.com/product-detail/C106248.html,2026-10-14,CATALOGUE_MATCH; check JLC stock/assembly availability
+"C7,C12",CC0402KRX7R7BB104,YAGEO,C60474,100nF 16V X7R +/-10% 0402,https://www.lcsc.com/product-detail/C60474.html,2026-10-14,CATALOGUE_MATCH; check JLC stock/assembly availability
+J1,PJ-327A0-SMT,XKB Connection,C381135,3.5mm jack; retain exact part for enclosure,https://www.lcsc.com/product-detail/C381135.html,2026-10-14,CATALOGUE_MATCH; check JLC stock/assembly availability
+J3,DF40HC(3.5)-30DS-0.4V(51),Hirose,C597945,30-pin 0.4mm mezzanine socket; exact height version,https://www.lcsc.com/product-detail/C597945.html,2026-10-14,CATALOGUE_MATCH; check JLC stock/assembly availability
+MK1,MSM261DGT003,MEMS,C48227730,Top-port PDM microphone,https://www.lcsc.com/product-detail/C48227730.html,2026-10-14,CATALOGUE_MATCH; check JLC stock/assembly availability
+Q1,MMBT3904,JSCJ,C20526,NPN SOT-23; LCSC listing RANGE 100-300,https://www.lcsc.com/product-detail/C20526.html,2026-10-14,CATALOGUE_MATCH; check JLC stock/assembly availability
+R1,0402WGF2201TCE,UNI-ROYAL,C25879,2.2k 1% 62.5mW 0402,https://www.lcsc.com/product-detail/C25879.html,2026-10-14,CATALOGUE_MATCH; check JLC stock/assembly availability
+"R3,R4,R5",0402WGF1002TCE,UNI-ROYAL,C25744,10k 1% 62.5mW 0402,https://www.lcsc.com/product-detail/C25744.html,2026-10-14,CATALOGUE_MATCH; check JLC stock/assembly availability
+R6,0402WGF4702TCE,UNI-ROYAL,C25792,47k 1% 62.5mW 0402,https://www.lcsc.com/product-detail/C25792.html,2026-10-14,CATALOGUE_MATCH; check JLC stock/assembly availability
+R7,0402WGF1003TCE,UNI-ROYAL,C25741,100k 1% 62.5mW 0402,https://www.lcsc.com/product-detail/C25741.html,2026-10-14,CATALOGUE_MATCH; check JLC stock/assembly availability
+R8,0402WGF1004TCE,UNI-ROYAL,C26083,1M 1% 62.5mW 0402,https://www.lcsc.com/product-detail/C26083.html,2026-10-14,CATALOGUE_MATCH; check JLC stock/assembly availability
+U1,TLV320ADC5140IRTWR,Texas Instruments,,Audio ADC WQFN-24 RTW; source exact part separately,https://www.ti.com/product/TLV320ADC5140/part-details/TLV320ADC5140IRTWR,2026-10-14,SOURCING_REQUIRED; LCSC exact listing not verified
+U2,TPS7A2033PDBVR,Texas Instruments,C2862740,3.3V LDO SOT-23-5,https://www.lcsc.com/product-detail/C2862740.html,2026-10-14,CATALOGUE_MATCH; check JLC stock/assembly availability

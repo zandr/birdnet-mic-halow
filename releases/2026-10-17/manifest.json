@@ -1,0 +1,202 @@
+{
+  "release": "v2026.10.17",
+  "source_commit": "d093773228fe31281557e0ddf73387ee0721a594",
+  "status": "prototype-prerelease",
+  "production_approval": "INCOMPLETE",
+  "fitted_count": 23,
+  "dnp": [
+    "C3",
+    "C11",
+    "R2"
+  ],
+  "checks": {
+    "drc_errors": 0,
+    "unconnected": 0,
+    "parity_violations": 0,
+    "drc_warnings": 2,
+    "erc_errors": 0,
+    "erc_warnings": 0
+  },
+  "files": [
+    {
+      "path": "Assembly-placement.pdf",
+      "bytes": 7624,
+      "sha256": "593696bc5e42e6f25d8a0c1bbed5df1edfd374ffc71ca37b4c0613ecae182693"
+    },
+    {
+      "path": "BOM-birdnet-mic-hat.csv",
+      "bytes": 1206,
+      "sha256": "2fddb7642651427ea3320935bd4d95c17f90c0ae1b50902844e5ff896eaf8cd1"
+    },
+    {
+      "path": "CPL-birdnet-mic-hat.csv",
+      "bytes": 984,
+      "sha256": "d1a850fc7aac27c7469cf88641cd5e8ae2460d6667dab00f44d19f7504f6a13c"
+    },
+    {
+      "path": "DNP.csv",
+      "bytes": 225,
+      "sha256": "2a943c9390ab1c32b4c5e7eaf1a5c1b3930d34541870cfe2bdb6488a08750fea"
+    },
+    {
+      "path": "Fabrication-birdnet-mic-hat.zip",
+      "bytes": 61740,
+      "sha256": "111e610b0ec67ba37ceb2c6b9d77dbc96de20c7abb47ba53be7ae94ae9f75209"
+    },
+    {
+      "path": "PCB-fabrication.pdf",
+      "bytes": 37887,
+      "sha256": "a5919cb928d09c2e5d071f50e770f719615dc180882764633ecdfaf3676ca18a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6275,
+      "sha256": "49235c939807db854c213b07baee6ae5a74448725cbab744ec430281d1e8df1f"
+    },
+    {
+      "path": "Schematic-birdnet-mic-hat.pdf",
+      "bytes": 172066,
+      "sha256": "99c1710aa7c6978e7515995098d2386ddda3561926db736503926717c67d073a"
+    },
+    {
+      "path": "Source-d093773.zip",
+      "bytes": 148294,
+      "sha256": "262b2c25b936d976ff52de19143636cd5ce00143e7e4387d0111ba76affc266d"
+    },
+    {
+      "path": "Sourcing.csv",
+      "bytes": 2644,
+      "sha256": "d79105e32b66e1c8d0db80f934d38781ee7e58e04f3acbb083ad4dfa2facd0af"
+    },
+    {
+      "path": "evidence/DRC.json",
+      "bytes": 1357,
+      "sha256": "a395d148be422486d7a6d9341fb1473ca99b5895689fff568a0c9fb560245a9b"
+    },
+    {
+      "path": "evidence/ERC.json",
+      "bytes": 318,
+      "sha256": "9fe8bea2883538794f6f2e2f0ac3e33a9392d36fa5de817c2484811d5a9f3e0b"
+    },
+    {
+      "path": "evidence/manufacturing-preflight.json",
+      "bytes": 296,
+      "sha256": "f43f15ba5eae5d57c822104c9e4374dcca1b041e01c9c2466242f349414e89aa"
+    },
+    {
+      "path": "evidence/native-BOM-birdnet-mic-hat.csv",
+      "bytes": 908,
+      "sha256": "4a7f26816be4287e024201bab79604bb84966869b367ddb2030e2e0e16129bbf"
+    },
+    {
+      "path": "evidence/native-CPL-birdnet-mic-hat.csv",
+      "bytes": 1080,
+      "sha256": "f527974f6083d8bd2c74a057b65ed15680e633651678c9c2e706163149a761f8"
+    },
+    {
+      "path": "evidence/native-export-report.json",
+      "bytes": 16008,
+      "sha256": "ea51428c9dc96a6789fbf43d4d0ddb698b5c7db08a2d44f5a9f7588323c79917"
+    },
+    {
+      "path": "evidence/pad-and-outline-geometry.json",
+      "bytes": 41518,
+      "sha256": "6c803bb2c77c6dd9874beb96a2e79e27367100d387a53a729258f658b852482f"
+    },
+    {
+      "path": "evidence/source-JACK-DETECTION.md",
+      "bytes": 4461,
+      "sha256": "23a360291cac56b3e981007a8b5320aea4146b3ef1f5a0089a8da1e62a92a940"
+    },
+    {
+      "path": "evidence/source-PDM-routing.md",
+      "bytes": 1409,
+      "sha256": "c7ce9bcae323543213b5a6ebecde333c01993d9cf6697ce4544d4352660e709a"
+    },
+    {
+      "path": "evidence/source-ROUTING-CLEANUP.md",
+      "bytes": 1676,
+      "sha256": "58e6cfc4525c4b7d072fd44adc1560b1c678a38fc3e8f627c780cce6affc6c0e"
+    },
+    {
+      "path": "evidence/source-inventory.csv",
+      "bytes": 1664,
+      "sha256": "a374d923db077bad19b949ef59e25a3d7acf6f1284a68fb9a196720f6148ac72"
+    },
+    {
+      "path": "evidence/viewer-review.md",
+      "bytes": 1143,
+      "sha256": "19567d7e4134169b0b2f0609354114da5626a17c960f09d606ab42c39ba3a07d"
+    },
+    {
+      "path": "gerbers/birdnet-mic-hat-B_Cu.gbl",
+      "bytes": 46794,
+      "sha256": "1e7aa832ffedbf07064f778beea3985b83be6ada69efb1ff80c75240da5fdcd2"
+    },
+    {
+      "path": "gerbers/birdnet-mic-hat-B_Mask.gbs",
+      "bytes": 2010,
+      "sha256": "6bb812372c42fb071b8024240d383e34e85e05ac1a81c9a0d293184e5c8e805e"
+    },
+    {
+      "path": "gerbers/birdnet-mic-hat-B_Paste.gbp",
+      "bytes": 1290,
+      "sha256": "bfb57bfb630627a7ec92ef00656b77360bff6d1ded019b2b66f760bebc69b8e2"
+    },
+    {
+      "path": "gerbers/birdnet-mic-hat-B_Silkscreen.gbo",
+      "bytes": 809,
+      "sha256": "afd997396b77ef0d6277ce566eab6e6361ac3b007dcef41640fa653543812ddd"
+    },
+    {
+      "path": "gerbers/birdnet-mic-hat-Edge_Cuts.gm1",
+      "bytes": 3636,
+      "sha256": "d9c1a569da02f03c4276d2f141cb23da4b9cfe429d177d844f72f88f42a26c08"
+    },
+    {
+      "path": "gerbers/birdnet-mic-hat-F_Cu.gtl",
+      "bytes": 77094,
+      "sha256": "3ed9c0cabee35996c0e208756b4adfa3c892270d5f56e47ff7422fdac921a727"
+    },
+    {
+      "path": "gerbers/birdnet-mic-hat-F_Mask.gts",
+      "bytes": 5414,
+      "sha256": "b47475d9612f6696c6b0c69581295394e8a77dbf1b29f2ec8c397aa0f6740b17"
+    },
+    {
+      "path": "gerbers/birdnet-mic-hat-F_Paste.gtp",
+      "bytes": 5569,
+      "sha256": "dbe99c1ecd60cd33bbe78aeb5b13d5e382df0b75a63cd0130c04365b31c32f34"
+    },
+    {
+      "path": "gerbers/birdnet-mic-hat-F_Silkscreen.gto",
+      "bytes": 8839,
+      "sha256": "d7e33eaec90caeb0813e961b26ea1abd85f7b6e0b7ede0e20c81d9bbef470d80"
+    },
+    {
+      "path": "gerbers/birdnet-mic-hat-In1_Cu.g1",
+      "bytes": 40611,
+      "sha256": "b316c5109f7a77db13137e9f3a5a7384d0f8bd82d592baec44ca3989f6b406ff"
+    },
+    {
+      "path": "gerbers/birdnet-mic-hat-In2_Cu.g2",
+      "bytes": 40947,
+      "sha256": "daea01e41a8c44f4139ba4337b374412e96372faf6202384f659525b4076f116"
+    },
+    {
+      "path": "gerbers/birdnet-mic-hat-NPTH.drl",
+      "bytes": 360,
+      "sha256": "ef92999331f4552151887afdd1bc14e05b11929a2fc126258fb678c5f19ca3bd"
+    },
+    {
+      "path": "gerbers/birdnet-mic-hat-PTH.drl",
+      "bytes": 977,
+      "sha256": "8f5d64e382722d5cf601b7b726c11a6afe55e63c0b8b0baa975ab4de4918894e"
+    },
+    {
+      "path": "gerbers/birdnet-mic-hat-job.gbrjob",
+      "bytes": 3774,
+      "sha256": "c9e28e7f2b338bacb4151dad15979efde66a34501259bea138d2a82913f1d787"
+    }
+  ]
+}

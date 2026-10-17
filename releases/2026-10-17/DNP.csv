@@ -1,0 +1,4 @@
+Designator,Value,Footprint,Reason
+C3,1uF,Capacitor_SMD:C_0603_1608Metric,Mono build: do not fit
+C11,1uF,Capacitor_SMD:C_0603_1608Metric,Mono build: do not fit
+R2,2.2k,Resistor_SMD:R_0402_1005Metric,Mono build: do not fit
