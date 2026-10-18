@@ -1,3 +1,5 @@
+> **Superseded 2026-10-18:** the board was fully re-placed and re-routed (commit cf38929). The via and track details below describe the old layout only.
+
 # Routing cleanup - 2026-10-16
 
 Cleaned the latest manually edited board through Konnect and KiCad's native editor. Footprints and pad connectivity were preserved.

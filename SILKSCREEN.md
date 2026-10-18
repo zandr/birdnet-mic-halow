@@ -1,6 +1,6 @@
 # Silkscreen policy
 
-All 26 component reference fields are hidden on the assembled PCB. Board identification text and orientation graphics remain. Use the schematic, BOM, and fabrication/assembly views to identify components.
+All 34 component reference fields are hidden on the assembled PCB (26 before the 2026-10-18 relayout). Board identification text and orientation graphics remain. Use the schematic, BOM, and fabrication/assembly views to identify components.
 
 Visible filled pin-1 dots on F.SilkS:
 
@@ -18,3 +18,5 @@ Verified 14 October 2026: every reference field hidden; exactly two added pin-1 
 The separate board-text labels C12 and J1 have also been removed. Hiding reference fields alone did not affect these manually placed labels. The only remaining standalone front silkscreen text is MIC and MIC HAT.
 
 MIC and MIC HAT have also been removed at the user's request. No standalone front silkscreen text remains; orientation marks and component outlines remain.
+
+Rechecked 18 October 2026 after the relayout (commit cf38929), which added D1, D2, R9, R10, R11, C13, C14 and FB1. All 34 reference fields are hidden. U1 and MK1 did not move, so both pin-1 dots stay at the positions in the table above. There is no standalone board text. Saved-board DRC shows no silkscreen violations; the only warnings are the two library mismatches for U1 and J3.
