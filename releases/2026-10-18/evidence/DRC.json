@@ -1,0 +1,56 @@
+{
+  "violations": [
+    {
+      "severity": "warning",
+      "description": "Footprint 'RTW24_4P15X4P15_TEX' does not match copy in library 'ADC5140_FP'",
+      "rule": "lib_footprint_mismatch",
+      "pos": {
+        "x": 109.7,
+        "y": 122.1
+      },
+      "items": [
+        {
+          "description": "Footprint U1",
+          "pos": {
+            "x": 109.7,
+            "y": 122.1
+          },
+          "uuid": "c3296154-7faa-437a-8106-9f85b653ad32",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Footprint 'DF40_30_LongWave_Hat' does not match copy in library 'BirdNetMicHat'",
+      "rule": "lib_footprint_mismatch",
+      "pos": {
+        "x": 111.148,
+        "y": 127.795
+      },
+      "items": [
+        {
+          "description": "Footprint J3",
+          "pos": {
+            "x": 111.148,
+            "y": 127.795
+          },
+          "uuid": "525ffd20-9115-408d-bcf4-3f20e9d7ced0",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "B.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    }
+  ],
+  "unconnected_items": [],
+  "schematic_parity": []
+}

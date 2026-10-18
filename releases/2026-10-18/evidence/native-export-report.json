@@ -1,0 +1,31 @@
+{
+ "tool": "Konnect export_manufacturing_package",
+ "fab_house": "jlcpcb",
+ "board_source": "stable_live_ipc_snapshot",
+ "complete": true,
+ "summary": "Complete package for JLCPCB. 16 verified non-empty files. No warnings.",
+ "warnings": [],
+ "gerber_layers": [
+  "F.Cu",
+  "In1.Cu",
+  "In2.Cu",
+  "B.Cu",
+  "F.Mask",
+  "B.Mask",
+  "F.Paste",
+  "B.Paste",
+  "F.SilkS",
+  "B.SilkS",
+  "Edge.Cuts"
+ ],
+ "placement_orientation": {
+  "status": "PREVIEW_REQUIRED",
+  "physical_validation": false,
+  "applied_corrections": [],
+  "policy": "konnect-jlcpcb-cpl-v1",
+  "algorithm": "kicad_native_board_pad_boxes_union_center",
+  "unmatched_footprints": "all 34 (no built-in correction rule matched; native rotations retained)",
+  "note": "Structural export does not prove physical placement orientation. Inspect every component in JLCPCB Component Placements before ordering."
+ },
+ "cross_check": "Gerbers from this live-snapshot export and from kicad-cli on the saved board are identical apart from timestamps (11 layers + job); drill files differ only in header dates."
+}
